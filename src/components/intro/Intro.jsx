@@ -1,5 +1,5 @@
 import "./intro.css"
-importMe from "../../img/me.jpg"
+import Me from "../../img/me.jpg"
 
 const Intro = () => {
     return (
@@ -15,20 +15,21 @@ const Intro = () => {
                             <div className="i-title-item">place 3</div>
                             <div className="i-title-item">place 4</div>
                             <div className="i-title-item">place 5</div>
-                            <div className="i-title-item">place 6</div>
                         </div>
                     </div>
-                    <div className="i-desc">
-                        <span>will input something to describe myself here.</span>
-                    </div>
+                    <p className="i-desc">
+                        will input something to describe myself here.
+                    </p>
                 </div>
             </div>
             
+            
             <div className="i-right">
-                <img src="" alt="" className="i-img" />
+                {/* <div className="i-bg"></div> */}
+                <img src={Me} alt="" className="i-img" />
             </div>
         </div>
     );
 };
 
-export default Intro
+export default Intro;
