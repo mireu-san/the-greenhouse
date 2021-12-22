@@ -14,8 +14,6 @@ const WorkList = () => {
                 <Work />
                 <Work />
                 <Work />
-                <Work />
-                <Work />
             </div>
         </div>
     )
