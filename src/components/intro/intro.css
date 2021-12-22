@@ -42,7 +42,7 @@
     animation: move 10s ease-in-out infinite alternate;
 }
 
-/* ANIMATION : moving animation effect e.g. 1,2,3,4->1,2...*/
+/* ANIMATION : moving animation effect */
 @keyframes move {
     25% {
         transform: translateY(-50px);

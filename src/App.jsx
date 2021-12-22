@@ -1,5 +1,6 @@
+import About from "./components/about/About";
 import Intro from "./components/intro/Intro";
-import About from "./components/intro/about/About";
+
 
 const App = () => {
   return (
