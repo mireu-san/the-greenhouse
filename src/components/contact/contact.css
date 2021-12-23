@@ -60,3 +60,10 @@ input {
     font-size: 14px;
     padding-left: 10px;
 }
+
+textarea {
+    width: 100%;
+    margin: 10px 0px;
+    font-size: 14px;
+    padding-left: 10px;
+}
