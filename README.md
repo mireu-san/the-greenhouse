@@ -14,6 +14,9 @@
 [2] unable to load image from data.js
 - image 폴더는 public 폴더에 두고 하기.  
 - https://stackoverflow.com/questions/65858373/unable-to-import-image-from-data-js-file-in-react/65858630
+[Added] : https://stackoverflow.com/questions/47196800/reactjs-and-images-in-public-folder
+- 분명 public 에서 src 로 하면 되는게 맞으나, 편의상 하라는대로 src 폴더 내부에 img 재이동.
+
 
 [3] position: static, sticky, fixed;
 - https://deeplify.dev/front-end/markup/position-sticky

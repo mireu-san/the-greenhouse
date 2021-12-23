@@ -22,3 +22,8 @@
 .c-right {
     flex: 1;
 }
+
+.c-title {
+    font-size: 60px;
+    width: 80%;
+}

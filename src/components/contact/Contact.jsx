@@ -1,8 +1,5 @@
 import "./contact.css"
-import Phone from "../../img/phone.png"
-import Email from "../../img/email.png"
 
-fontawesome vs image?
 
 const Contact = () => {
     return (
@@ -13,13 +10,30 @@ const Contact = () => {
                     <h1 className="c-title">
                         Contact
                     </h1>
-                    <div className="d-info">
+                    <div className="c-info">
                         <div className="c-info-item">
-                            <img 
-                                src="" 
+                            {/* <img 
+                                src={Phone} 
                                 alt="" 
                                 className="c-icon" 
-                            />
+                            /> */}
+                            <i className="fas fa-phone-square-alt"></i>
+                            +82 01-8215-8540
+                        </div>
+                        <div className="c-info-item">
+                            <i className="fas fa-envelope"></i>
+                            {/* <img src={Email} alt="" className="c-icon"/> */}
+                            starmireu@gmail.com
+                        </div>
+                        <div className="c-info-item">
+                            <i class="fab fa-linkedin"></i>
+                            {/* <img src={LinkedIn} alt="" className="c-icon"/> */}
+                            https://www.linkedin.com/in/jongwan-kim-89500a194/
+                        </div>
+                        <div className="c-info-item">
+                            <i class="fab fa-github-square"></i>
+                            {/* <img src={Github} alt="" className="c-icon"/> */}
+                            https://github.com/mireu-san
                         </div>
                     </div>
                 </div>
