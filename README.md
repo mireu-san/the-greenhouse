@@ -15,3 +15,6 @@
 - image 폴더는 public 폴더에 두고 하기.  
 - https://stackoverflow.com/questions/65858373/unable-to-import-image-from-data-js-file-in-react/65858630
 
+[3] position: static, sticky, fixed;
+- https://deeplify.dev/front-end/markup/position-sticky
+- note: does not work on IE browsers

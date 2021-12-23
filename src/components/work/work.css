@@ -26,4 +26,9 @@
 
 .w-img {
     width: 100%;
+    transition: all 10s ease;
+}
+
+.w:hover .w-img {
+    transform: translateY(-25%);
 }
