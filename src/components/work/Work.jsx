@@ -1,6 +1,6 @@
 import "./work.css"
 
-const Work = () => {
+const Work = ({img, link}) => {
     return (
         <div className="w">
             {/* memopad effect */}
@@ -9,6 +9,10 @@ const Work = () => {
                 <div className="w-circle"></div>
                 <div className="w-circle"></div>
             </div>
+            {/* thumbnail image for each work */}
+            <a href={link} target="_black" rel="noreferrer">
+                <img src={img} alt="" className="w-img" />
+            </a>
         </div>
     )
 }

@@ -1,5 +1,7 @@
 import "./workList.css"
 import Work from "../work/Work"
+import { works } from "../../data"
+
 
 const WorkList = () => {
     return (
@@ -12,12 +14,9 @@ const WorkList = () => {
             </div>
 
             <div className="wl-list">
-                <Work />
-                <Work />
-                <Work />
-                <Work />
-                <Work />
-                <Work />
+                {works.map((item) => (
+                    <Work key={item.id} img={item.img} link={item.link} />
+                ))}
             </div>
         </div>
     )
