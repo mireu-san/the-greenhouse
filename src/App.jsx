@@ -1,15 +1,18 @@
+import { useContext } from "react";
 import About from "./components/about/About";
 import Contact from "./components/contact/Contact";
 import Intro from "./components/intro/Intro";
 import Toggle from "./components/toggle/Toggle";
 import WorkList from "./components/workList/WorkList";
+import { ThemeContext } from "./context";
 
 
 
 const App = () => {
-// useState method does work to distribute button on each pages, but not appropriate for large scale web
+  const theme = useContext(ThemeContext);
+  const darkMode = theme.state.darkMode;
   return (
-    <div style={{backgroundColor: "#23252F", color: "white"}}>
+    <div style={{backgroundColor:darkMode ? "#23252F" : "white", color:darkMode && "white" }}>
       <Toggle />
       <Intro />
       <About />
