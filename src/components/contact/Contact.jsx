@@ -32,7 +32,7 @@ const Contact = () => {
                     <div className="c-info">
                         <div className="c-info-item">
                             <i className="c-icon fas fa-phone-square-alt fa-2x"></i>
-                            +82 01-8215-8540
+                            +82 10-8215-8540
                         </div>
                         <div className="c-info-item">
                             <i className="c-icon fas fa-envelope fa-2x"></i>
@@ -50,7 +50,7 @@ const Contact = () => {
                 </div>
                 <div className="c-right">
                     <p className="c-desc">
-                        <b>test</b> test.
+                        <b>솔직하게, 책임있게 답을 드리겠습니다.</b>
                     </p>
                     <form ref={formRef} onSubmit={handleSubmit}>
                         <input style={{backgroundColor: darkMode && "#333"}} type="text" placeholder="성함" name="user_name" />

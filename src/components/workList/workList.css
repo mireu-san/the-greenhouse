@@ -25,3 +25,17 @@
     flex-wrap: wrap;
     justify-content: space-between;
 }
+
+@media screen and (max-width: 480px) {
+    .wl {
+        padding: 10px;
+    }    
+
+    .wl-texts {
+        width: 100%;
+    }
+
+    .wl-desc {
+        display: none;
+    }
+}

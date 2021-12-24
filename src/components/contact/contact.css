@@ -81,9 +81,51 @@ button {
     cursor: pointer;
 }
 
+/* a {
+    color: black;
+    text-decoration: none;
+} */
+
 
 @media screen and (max-width: 480px) {
     .c-wrapper {
         flex-direction: column;
+        padding: 0px 50px;
     }
+
+    .c-title {
+        font-size: 30px;
+    }
+
+    .c-info-item {
+        margin: 20px 0px;
+        width: 100%;
+    }
+
+    /* if contact section looks too in void, remove this */
+    .c-desc {
+        display: none;
+    }
+
+    form {
+        margin-top: 0px;
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    input {
+        width: 35%;
+        height: 40px;
+        margin: 10px;
+        margin-left: 0;
+    }
+
+    button {
+        margin-top: 5px;
+    }
+    
+    /* a {
+        color: white;
+        text-decoration: none;
+    } */
 }
