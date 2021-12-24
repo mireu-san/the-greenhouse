@@ -1,10 +1,13 @@
 import "./contact.css"
-import React, { useRef, useState } from "react";
+import React, { useRef, useState, useContext } from "react";
 import emailjs from "emailjs-com";
+import { ThemeContext } from "../../context";
 
 const Contact = () => {
     const formRef = useRef()
     const [done, setDone] = useState(false)
+    const theme = useContext(ThemeContext);
+    const darkMode = theme.state.darkMode;
     
     const handleSubmit = (e) => {
         e.preventDefault();
@@ -50,10 +53,10 @@ const Contact = () => {
                         <b>test</b> test.
                     </p>
                     <form ref={formRef} onSubmit={handleSubmit}>
-                        <input type="text" placeholder="성함" name="user_name" />
-                        <input type="text" placeholder="제목" name="user_subject" />
-                        <input type="text" placeholder="이메일 주소" name="user_email" />
-                        <textarea rows="5" placeholder="남기실 말을 입력해주세요." name="message" />
+                        <input style={{backgroundColor: darkMode && "#333"}} type="text" placeholder="성함" name="user_name" />
+                        <input style={{backgroundColor: darkMode && "#333"}} type="text" placeholder="제목" name="user_subject" />
+                        <input style={{backgroundColor: darkMode && "#333"}} type="text" placeholder="이메일 주소" name="user_email" />
+                        <textarea style={{backgroundColor: darkMode && "#333"}} rows="5" placeholder="남기실 말을 입력해주세요." name="message" />
                         <button>Send</button>
                         {done && "메일이 전송되었습니다! 오늘 중으로 연락드리겠습니다."}
                     </form>
