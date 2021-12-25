@@ -15,6 +15,12 @@
     font-weight: 600;
 }
 
+.wl-title-img {
+    width: 5%;
+    height: 5%;
+    object-fit: cover;
+}
+
 .wl-desc {
     margin: 20px 0px;
 }
@@ -29,7 +35,12 @@
 @media screen and (max-width: 480px) {
     .wl {
         padding: 10px;
+        margin-top: 50px;
     }    
+
+    .wl-title {
+        padding-top: 20px;
+    }
 
     .wl-texts {
         width: 100%;

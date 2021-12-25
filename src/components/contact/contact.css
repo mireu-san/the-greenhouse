@@ -1,6 +1,7 @@
 .c {
     height: 100vh;
     position: relative;
+    word-wrap: break-word;
 }
 
 .c-bg {

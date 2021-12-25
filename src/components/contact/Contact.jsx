@@ -39,13 +39,19 @@ const Contact = () => {
                             starmireu@gmail.com
                         </div>
                         <div className="c-info-item">
-                            <i class="c-icon fab fa-linkedin fa-2x"></i>
-                            https://www.linkedin.com/in/jongwan-kim-89500a194/
-                        </div>
-                        <div className="c-info-item">
                             <i class="c-icon fab fa-github-square fa-2x"></i>
                             https://github.com/mireu-san
                         </div>
+                        <div className="c-info-item">
+                            <i class="c-icon fab fa-linkedin fa-2x"></i>
+                            https://www.linkedin.com/in/jongwan-kim-89500a194/
+                        </div>
+                        {/* <div className="c-info-item">
+                            <a href="https://drive.google.com/file/d/1tu39JaGKjqL7nSaKWC6Wi9qZnkIbxRdn/view?usp=sharing">
+                                <i class="c-icon fas fa-id-card fa-2x"></i>
+                            </a>
+                            Resume document
+                        </div> */}
                     </div>
                 </div>
                 <div className="c-right">
