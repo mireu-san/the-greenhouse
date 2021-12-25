@@ -4,7 +4,7 @@
 }
 
 .i-left {
-    flex: 1s;
+    flex: 1;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -65,16 +65,8 @@
     color: aqua;
     display: flex;
     align-items: center; 
-    text-align: center;
-    justify-content: center;
 }
 
-.i-scroll {
-    width: 30px;
-    height: 30px;
-    position: absolute;
-    bottom: 20px;
-}
 
 .i-img {
     width: 100%;
@@ -82,6 +74,8 @@
     object-fit: cover;
     position: absolute;
 }
+
+
 
 @media screen and (max-width: 480px) {
     .i {
@@ -95,6 +89,17 @@
         justify-content: center;
         /* Warning - height 100% better be kept or animation won't work on mobile */
         height: 100%;
+    }
+
+    .i-title-item {
+        height: 50px;
+        font-size: 30px;
+        font-weight: bold;
+        color: aqua;
+        display: flex;
+        align-items: center; 
+        text-align: center;
+        justify-content: center;
     }
 
     .i-desc {
