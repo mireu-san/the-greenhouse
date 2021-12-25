@@ -50,7 +50,7 @@ const Contact = () => {
                 </div>
                 <div className="c-right">
                     <p className="c-desc">
-                        <b>솔직하게, 책임있게 답을 드리겠습니다.</b>
+                        <b>연락을 기다리겠습니다. 과대 포장없이 실현 가능한 것만 약속 드리겠습니다.</b>
                     </p>
                     <form ref={formRef} onSubmit={handleSubmit}>
                         <input style={{backgroundColor: darkMode && "#333"}} type="text" placeholder="성함" name="user_name" />

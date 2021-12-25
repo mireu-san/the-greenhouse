@@ -6,7 +6,7 @@
 .c-bg {
     width: 20px;
     height: 100%;
-    background-color: aqua;
+    background-color: brown;
     position: absolute;
 }
 
@@ -102,9 +102,20 @@ button {
         width: 100%;
     }
 
+
+    /* .c-info {
+        width: 260px;
+        height: 188px
+    } */
+
     /* if contact section looks too in void, remove this */
     .c-desc {
         display: none;
+    }
+
+    .c-info-item {
+        margin: 20px 0px;
+        width: 100%;
     }
 
     form {

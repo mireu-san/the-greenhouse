@@ -9,7 +9,7 @@ const WorkList = () => {
             <div className="wl-text">
                 <h1 className="wl-title">Work Catalogue</h1>
                 <p className="wl-desc">
-                    I have worked on many projects. etc etc.
+                    The latest works I have done.
                 </p>
             </div>
 

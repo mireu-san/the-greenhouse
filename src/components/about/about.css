@@ -40,9 +40,9 @@
 
 
 .a-award-img {
-    width: 120px;
-    height: 120px;
-    border-radius: 20px;
+    width: 300px;
+    height: 200px;
+    border-radius: 25px;
 }
 
 .a-title {
@@ -84,7 +84,10 @@
     .a-left {
         width: 100%;
     }
-    
+
+    .wl-title {
+        padding-top: 40px;
+    }
     .a-card {
         height: 30vh;
     }
