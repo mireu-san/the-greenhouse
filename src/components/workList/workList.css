@@ -46,7 +46,9 @@
         width: 100%;
     }
 
-    .wl-desc {
-        display: none;
+    .wl-title-img {
+        width: 15%;
+        height: 15%;
+        object-fit: cover;
     }
 }
