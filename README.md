@@ -5,6 +5,23 @@
 - 완성 후, 리팩토링을 위해 중간에 메모 남겨두기.
 - tag 및 class, function 명은 '최대한 간단하게' (길게 하면 디버깅때 괴로움)
 
+# 확고히 정립하게 된 점 (언제든지 대응 가능)
+- Media query 를 이용한 mobile view 창크기 대응.
+- responsive css 적용을 위한 대응.
+- animation effect / CSS
+- bright/dark view mode / JavaScript, mouse click event
+- 기본 react hook (useContext) 에 대한 적용. (note: globally apply props e.g. something should appear on top of each page)
+- REST API 적용 대응 - emailjs
+- 함수적 대응: map, key 응용대응 to another javascript file
+- useState 의 적용 시점, 확고해짐. 
+https://stackoverflow.com/questions/53165945/what-is-usestate-in-react 
+https://stackoverflow.com/questions/58860021/why-react-hook-usestate-uses-const-and-not-let
+https://react.vlpt.us/basic/07-useState.html
+
+# 아쉬운 점 (아직 외부 자료의 도움이 필요)
+- react-redux https://stackoverflow.com/questions/42871136/dispatch-function-in-react-redux
+- 너무 포트폴리오 랜딩 페이지 위주로만 제작 함. 그 다음 프로젝틍 에서는 간이 검색 엔진을 구현해 볼 예정.
+
 # Debugging note:
 [1] display: flex; 
 - 이는 정말 그 목적에 부합하는 flex 하게 라인업 되어서 출력 됨. 즉, 지금까지 착각한 것이 반드시 지정된 정확한 지점에 맞게 픽셀을 조정하고, 엇나가면 padding 과 margin 을 조정해서 맞추는 것이었다.
