@@ -1,5 +1,5 @@
 # Intro
-- 이 프로젝트는 전작 new-lighthouse repository 에서 구현에 실패한 문제점을 보완하여, 새롭게 제작된 포트폴리오 페이지입니다.
+- 이 프로젝트는 전작 new-lighthouse(https://github.com/mireu-san/the-lighthouse) 에서 구현에 실패한 문제점을 보완하여, 새롭게 제작된 포트폴리오 페이지입니다.
 - 미리보기 주소: https://quizzical-lalande-ad5cef.netlify.app
 
 # Main principle:
