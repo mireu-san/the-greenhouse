@@ -2,6 +2,13 @@
 - 이 프로젝트는 전작 new-lighthouse(https://github.com/mireu-san/the-lighthouse) 에서 구현에 실패한 문제점을 보완하여, 새롭게 제작된 포트폴리오 페이지입니다.
 - 미리보기 주소: https://quizzical-lalande-ad5cef.netlify.app
 
+# About this repository:
+This project was established to promote myself and let it work as a personal portfolio page.
+From this process including the previous unstable version, I have stabilised the basics of React, JS and syntax.
+Project inspired me what to do before starting the project, so I had to plan with diagram on piece of paper and set some model to clone it.
+Although I relied most css by others, I could had applied several features and experienced how it functions by itself.
+After completing this one, I have been doing problem and solving on Leetcode. I assume I may be closer to the goal...
+
 # Main principle:
 - CSS OR styled-components. 둘 중 하나만 사용하기. 
 (둘다쓰면 유지보수가 끔찍해짐)
